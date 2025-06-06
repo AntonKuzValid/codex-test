@@ -1,0 +1,8 @@
+# Cirrus CI configuration
+
+build_task:
+  container:
+    image: gradle:jdk17
+  script:
+    - gradle --version
+    - gradle build
